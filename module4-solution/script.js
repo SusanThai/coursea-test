@@ -58,9 +58,10 @@ for (var i = 0; i < names.length; i++) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstLetter === 'j') {
-    byeSpeaker.speak(names[i]);
+    // console.log(names)
+    console.log(byeSpeaker.speak(names[i]));
   } else {
-    helloSpeaker.speak(names[i]);
+    console.log(helloSpeaker.speak(names[i]));
   }
 }
 
@@ -68,4 +69,4 @@ for (var i = 0; i < names.length; i++) {
 
 
 // NOTE! The steps in this file are basically identical to the ones you
-// performed in the SpeakHello.js file.
+// performed in the SpeakHello.js file
